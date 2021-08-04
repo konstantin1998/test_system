@@ -19,7 +19,7 @@ class Window(QMainWindow, Ui_MainWindow):
 
     def show_questions(self):
         dialog = TestDialog(self)
-        dialog.exec()
+        dialog.show()
 
 
 if __name__ == "__main__":

@@ -6,7 +6,7 @@ from PyQt5.QtWidgets import (
 from PyQt5.uic import loadUi
 
 
-class TestDialog(QDialog):
+class TestDialog(QMainWindow):
     def __init__(self, parent=None):
         super().__init__(parent)
-        loadUi("C:/Users/galpe/anaconda3/envs/test_system/test_window.ui", self)
+        loadUi("test_window.ui", self)
